@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='bufu',
-    version='0.0.2',
+    version='0.0.3',
     author='indigo13love',
     author_email='indigo13love@gmail.com',
     description='Minimal file upload for Snowflake internal stage',
@@ -19,6 +19,10 @@ setuptools.setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Operating System :: OS Independent'
+    ],
+    install_requires = [
+        'snowflake-connector-python>=2.3.6',
+        'fire>=0.3.1'
     ],
     entry_points = {
         'console_scripts': ['bufu = bufu.bufu:main']
