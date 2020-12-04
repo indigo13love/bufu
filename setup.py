@@ -5,10 +5,10 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='bufu',
-    version='0.0.3',
+    version='0.0.4',
     author='indigo13love',
     author_email='indigo13love@gmail.com',
-    description='Minimal file upload for Snowflake internal stage',
+    description='Minimal file uploader CLI for Snowflake internal stage',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license_files='LICENSE',
